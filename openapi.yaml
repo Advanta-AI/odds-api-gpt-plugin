@@ -5,7 +5,7 @@ info:
   version: 1.0.0
 
 servers:
-  - url: https://odds-api-gpt-plugin.onrender.com
+  url: https://odds-api-gpt-plugin.onrender.com
 
 paths:
   /sports:
