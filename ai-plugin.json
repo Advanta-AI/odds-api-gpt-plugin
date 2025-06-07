@@ -1,0 +1,18 @@
+
+{
+  "schema_version": "v1",
+  "name_for_model": "oddsapi",
+  "name_for_human": "The Odds API",
+  "description_for_model": "Access betting odds, sports, and markets from The Odds API.",
+  "description_for_human": "Get real-time betting odds from sportsbooks.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://your-deployment-url.onrender.com/openapi.yaml"
+  },
+  "logo_url": "https://yourdomain.com/logo.png",
+  "contact_email": "support@yourdomain.com",
+  "legal_info_url": "https://the-odds-api.com/legal"
+}
