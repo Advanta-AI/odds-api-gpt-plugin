@@ -25,32 +25,33 @@ paths:
           description: A list of sports
 
   /sports/{sport}/odds:
-    get:
-      operationId: getOdds
-      summary: Get odds for a specific sport
-      x-openai-model: gpt-4
-      x-openai-isConsequential: false
-      parameters:
-        - in: path
-          name: sport
-          required: true
-          schema:
-            type: string
-        - in: query
-          name: regions
-          required: true
-          schema:
-            type: string
-        - in: query
-          name: markets
-          required: true
-          schema:
-            type: string
-        - in: query
-          name: apiKey
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Betting odds
+  get:
+    operationId: getOddsBySport
+    summary: Get odds for a specific sport
+    x-openai-model: gpt-4
+    x-openai-isConsequential: false
+    parameters:
+      - in: path
+        name: sport
+        required: true
+        schema:
+          type: string
+      - in: query
+        name: regions
+        required: true
+        schema:
+          type: string
+      - in: query
+        name: markets
+        required: true
+        schema:
+          type: string
+      - in: query
+        name: apiKey
+        required: true
+        schema:
+          type: string
+    responses:
+      '200':
+        description: Betting odds
+
