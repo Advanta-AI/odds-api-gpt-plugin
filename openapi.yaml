@@ -1,16 +1,18 @@
-openapi: 3.0.1
+openapi: 3.1.0
 info:
   title: The Odds API
   description: Retrieve sports betting odds from sportsbooks across various markets.
   version: 1.0.0
+
 servers:
   - url: https://odds-api-gpt-plugin.onrender.com
 
 paths:
   /sports:
     get:
+      operationId: getSports
       summary: Get all active sports
-      x-openai-model: "gpt-4"
+      x-openai-model: gpt-4
       x-openai-isConsequential: false
       parameters:
         - in: query
@@ -24,8 +26,9 @@ paths:
 
   /sports/{sport}/odds:
     get:
+      operationId: getOdds
       summary: Get odds for a specific sport
-      x-openai-model: "gpt-4"
+      x-openai-model: gpt-4
       x-openai-isConsequential: false
       parameters:
         - in: path
