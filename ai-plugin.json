@@ -10,7 +10,8 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://your-deployment-url.onrender.com/openapi.yaml"
+    "url": "https://odds-api-gpt-plugin.onrender.com/openapi.yaml"
+"
   },
   "logo_url": "https://yourdomain.com/logo.png",
   "contact_email": "support@yourdomain.com",
