@@ -4,7 +4,7 @@ info:
   description: Retrieve sports betting odds from sportsbooks across various markets.
   version: 1.0.0
 servers:
-  - url: https://api.the-odds-api.com/v4
+  - url: https://odds-api-gpt-plugin.onrender.com
 
 paths:
   /sports:
