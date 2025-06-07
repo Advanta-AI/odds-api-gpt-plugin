@@ -10,7 +10,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://odds-api-gpt-plugin.onrender.com/openapi.yaml"
+    "url": "https://odds-api-gpt-plugin.onrender.com"
   },
   "logo_url": "https://raw.githubusercontent.com/Azure/ai-plugin-sample/main/logo.png",
   "contact_email": "info@advanta-ai.com",
